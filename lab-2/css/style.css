@@ -1,0 +1,39 @@
+/** Step one **/h1 {
+font-family:Jaro Serif;
+}
+ 
+/** Step one end **/
+
+/** Step two **/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "jaro", cursive;
+}
+/** Step two end **/
+
+/** Step three **/
+h1 {
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #3498db; /* Choose any color you like */
+}
+/** Step three end **/
+
+/** Step four **/
+body, p {
+    font-family:"lato" ;
+}
+/** Step four end **/
+
+/** Step five **/
+p span {
+    color: #e74c3c; /* Choose any color you like */
+}
+/** Step five end **/
+
+/** Step six **/
+h3 {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+/** Step six end **/
