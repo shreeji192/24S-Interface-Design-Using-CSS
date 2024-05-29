@@ -1,0 +1,71 @@
+body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "masthead masthead masthead masthead"
+        "main main main main"
+        /* "content2 content2 content2 content2" */
+        "footer footer footer footer";
+}
+
+header {
+    display: flex; /* Removed duplicate display: grid; */
+    grid-area: header;
+    background-color: rgb(4, 76, 78);
+}
+
+header div {
+    width: 50%;
+    text-align: center;
+    background-color: rgb(147, 29, 104);
+}
+
+header nav {
+    width: 50%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.masthead {
+    display: flex; /* Removed duplicate display: grid; */
+    align-items: center;
+    grid-area: masthead;
+    justify-self: center;
+    background-color: rgb(42, 193, 12);
+    text-align: center;
+    /* padding: 3em; */
+    height: 5em;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-area: main;
+}
+
+section.row3, section.row4 {
+    display: flex;
+}
+
+section.row3 div {
+    width: 33.33%;
+    background-color: rgb(240, 220, 141);
+    height: 5em;
+}
+
+section.row4 div {
+    width: 33.33%;
+    background-color: rgb(155, 251, 228);
+    height: 5em;
+}
+
+footer {
+    display: grid;
+    grid-area: footer;
+    background-color: rgb(19, 189, 104);
+    height: 5em;
+    width: 100%;
+    text-align: center;
+}
