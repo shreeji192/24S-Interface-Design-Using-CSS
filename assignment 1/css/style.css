@@ -1,0 +1,109 @@
+/* Reset padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body styling */
+body {
+    background-color: #d5fef2; /* Light greenish background color */
+}
+
+/* Video container styling */
+.videoContainer {
+    text-align: center !important; /* Center the content */
+    margin: 2rem; /* Margin around the container */
+}
+
+/* Video element styling */
+.video {
+    border-radius: 30px; /* Rounded corners for the video */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 
+                0 6px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg); /* Initial perspective */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+/* Video hover effect */
+.video:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg); /* Rotate on hover */
+}
+
+/* Heading (h1) styling */
+h1 {
+    font-family: 'Courier New', Courier, monospace; /* Font family */
+    font-size: 4em; /* Font size */
+    margin: 0; /* No margin */
+    text-align: center; /* Center the text */
+    color: #f05836; /* Text color */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 4px 4px #000000; /* Text shadow */
+}
+
+/* Lyrics section styling */
+#lyrics {
+    margin: 2rem auto; /* Centered with margin */
+    max-width: 800px; /* Maximum width */
+    font-size: 1.5em; /* Font size */
+    height: 30rem; /* Fixed height */
+    overflow-y: scroll; /* Scrollable content */
+    border: 2px solid black; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Padding inside */
+    background-color: rgba(242, 245, 73, 0.961); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Paragraph styling inside lyrics section */
+#lyrics p {
+    margin-bottom: 1rem; /* Margin below each paragraph */
+}
+
+/* Hover effect for paragraphs inside lyrics section */
+#lyrics p:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Light background on hover */
+    padding: 0.5rem; /* Padding on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    margin-top: 2rem; /* Margin on top */
+    padding: 1.25rem; /* Padding inside */
+    font-size: 1.25rem; /* Font size */
+}
+
+/* Custom font class: Poetsen One */
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif; /* Font family */
+    font-weight: 400; /* Font weight */
+    font-style: normal; /* Font style */
+}
+
+/* Custom font class: Caveat */
+.caveat-one-regular {
+    font-family: "Caveat"; /* Font family */
+    font-weight: 400; /* Font weight */
+}
+
+.imageContainer{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.image{
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 
+                0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.name{
+    margin: 1rem;
+    font-size: 6rem;
+    font-weight: bolder;
+    
+}
