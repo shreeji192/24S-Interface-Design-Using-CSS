@@ -1,0 +1,297 @@
+/* General styles */
+body {
+    /* Font settings and layout for the entire page */
+    font-family: 'Caveat', cursive, 'Poetsen One', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f7f7f7; /* Light background color */
+}
+
+/* Container */
+.container {
+    /* Container width and alignment */
+    width: 90%;
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Navigation Bar */
+nav {
+    /* Navigation bar styles */
+    background-color: #a25911; /* Dark orange background */
+    padding: 10px 0; /* Vertical padding */
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Center items vertically */
+}
+
+.nav h1 {
+    /* Style for the navigation bar's header (if used) */
+    font-size: xx-large;
+}
+
+.nav-logo {
+    /* Logo image styling */
+    max-height: 50px; /* Limit logo height */
+    border-radius: 50%; /* Round the logo */
+    margin: 10px; /* Margin around the logo */
+    padding: 10px; /* Padding inside the logo */
+}
+
+.nav-right a {
+    /* Navigation links styling */
+    color: #fff; /* White text color */
+    margin: 0 10px; /* Margin around links */
+    text-decoration: none; /* Remove underline */
+    font-size: 25px; /* Font size for links */
+}
+
+.nav-right a:hover {
+    /* Hover effect for navigation links */
+    text-decoration: underline; /* Underline on hover */
+}
+
+#search-form {
+    /* Style for the search form */
+    display: inline-block; /* Align form inline */
+}
+
+#search-form input {
+    /* Style for search input field */
+    padding: 5px; /* Padding inside input */
+    font-size: 16px; /* Font size */
+    border-radius: 20px; /* Rounded corners */
+}
+
+#search-form button {
+    /* Style for search button */
+    padding: 5px; /* Padding inside button */
+    font-size: 16px; /* Font size */
+    background-color: #a25911; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+}
+
+#search-form button:hover {
+    /* Hover effect for search button */
+    background-color: hsl(21, 71%, 27%); /* Darker button color */
+}
+
+/* Header Section */
+header {
+    /* Header section styling */
+    background-color: #fff; /* White background */
+    text-align: center; /* Center text */
+    padding: 50px 0; /* Vertical padding */
+}
+
+header h1 {
+    /* Font size for header title */
+    font-size: 48px;
+}
+
+/* Hero Section */
+.hero {
+    /* Hero section styling */
+    background: url('milkyway-hero.jpg') no-repeat center center/cover; /* Background image */
+    color: #df8908c8; /* Text color */
+    text-align: center; /* Center text */
+    padding: 100px 0; /* Vertical padding */
+}
+
+.hero h1 {
+    /* Font size for hero headline */
+    font-size: 48px;
+    margin-bottom: 10px; /* Margin below headline */
+}
+
+.hero p {
+    /* Font size for hero subtext */
+    font-size: 24px;
+    margin-bottom: 20px; /* Margin below text */
+}
+
+.button {
+    /* General button styling */
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding inside button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.button:hover {
+    /* Hover effect for buttons */
+    background-color: #218838; /* Darker green */
+}
+
+/* Main Content */
+main {
+    /* Padding for the main content area */
+    padding: 50px 0;
+}
+
+/* History and Ingredients Sections */
+section {
+    /* General section styling */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+}
+
+/* Style for the ingredients section */
+#ingredients ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+section h2 {
+    /* Font size for section headings */
+    font-size: 36px;
+    margin-bottom: 20px; /* Margin below heading */
+}
+
+section p, section ul {
+    /* Font size for section text and lists */
+    font-size: 24px;
+}
+
+/* Media Section */
+.imageContainer {
+    /* Flexbox container for images */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.image {
+    /* Image styling */
+    max-width: 100%; /* Responsive width */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px; /* Margin around image */
+}
+
+/* Products Section */
+.products {
+    /* Products section styling */
+    background-color: #fff; /* White background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+}
+
+.product-grid {
+    /* Flexbox grid for products */
+    display: flex;
+    justify-content: space-around; /* Space products evenly */
+    flex-wrap: wrap; /* Wrap items to new lines */
+}
+
+.product {
+    /* Product item styling */
+    width: 30%; /* Set width for responsiveness */
+    margin-bottom: 20px; /* Margin below product */
+}
+
+.product img {
+    /* Product image styling */
+    max-width: 100%; /* Responsive width */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Margin below image */
+}
+
+.product h3 {
+    /* Font size for product titles */
+    font-size: 24px;
+    margin-bottom: 10px; /* Margin below title */
+}
+
+/* Footer */
+footer {
+    /* Footer section styling */
+    background-color: #a25911; /* Dark orange background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+}
+
+.footer-content {
+    /* Flexbox container for footer content */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.footer-logo {
+    /* Footer logo styling */
+    max-height: 50px; /* Limit logo height */
+    margin-bottom: 20px; /* Margin below logo */
+    border-radius: 50%; /* Round the logo */
+}
+
+.footer-info p {
+    /* Margin for footer information text */
+    margin: 10px 0;
+}
+
+.social-media {
+    /* Styling for social media links container */
+    margin-bottom: 20px; /* Margin below social media links */
+}
+
+.social-media a {
+    /* Styling for social media links */
+    margin: 0 10px; /* Margin around links */
+}
+
+.contact-form {
+    /* Styling for contact form */
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center form elements */
+}
+
+.contact-form label {
+    /* Margin for form labels */
+    margin: 5px 0;
+}
+
+.contact-form input {
+    /* Styling for form input fields */
+    padding: 5px; /* Padding inside input */
+    margin: 5px 0; /* Margin around input */
+    width: 200px; /* Fixed width */
+    font-size: 16px; /* Font size */
+}
+
+.contact-form button {
+    /* Styling for contact form button */
+    padding: 10px 20px; /* Padding inside button */
+    font-size: 16px; /* Font size */
+    background-color: #a25911; /* Button background color */
+    color: #333; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Margin above button */
+}
+
+.contact-form button:hover {
+    /* Hover effect for contact form button */
+    background-color: hsl(21, 71%, 27%); /* Darker button color */
+}
+
+/* Footer Button */
+.footer .button {
+    /* Styling for button in footer */
+    background-color: #ffc107; /* Yellow background */
+    color: #333; /* Dark text color */
+    padding: 10px 20px; /* Padding inside button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-top: 20px; /* Margin above button */
+}
+
+.footer .button:hover {
+    /* Hover effect for footer button */
+    background-color: hsl(21, 71%, 27%); /* Darker button color */
+}
